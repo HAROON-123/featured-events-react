@@ -1,16 +1,37 @@
-# React + Vite
+# Featured Events – React Case Study
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a single-page, responsive web application built as part of a case study for the **Web Development Internship at Dynamics 360**.
 
-Currently, two official plugins are available:
+The application displays a list of featured local events in a clean and mobile-friendly layout.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React (Vite / Create React App)
+- React-Bootstrap
+- Bootstrap 5
+- JavaScript (ES6)
+- HTML5 & CSS3
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Features
+
+- Responsive navigation bar
+- Hero section with heading
+- Featured Events section (3+ event cards)
+- Event cards include:
+  - Event name
+  - Date & time
+  - Location
+  - Short description
+  - Register button (UI only)
+- Search bar to filter events by name
+- Event data loaded dynamically using dummy JSON
+- Fully responsive for mobile, tablet, and desktop
+
+---
+
+
+
